@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<dl>
+  <dt>Vimeo ID</dt>
+  <dd>{{ vimeo_id }}</dd>
+  <dt>Title</dt>
+  <dd>{{ title }}</dd>
+  <dt>Creator</dt>
+  <dd>{{ main_contributors }}</dd>
+  <dt>Additional Creators</dt>
+  <dd>?</dd>
+  <dt>Publication Date</dt>
+  <dd>{{ date_notation }}</dd>
+  <dt>Format</dt>
+  <dd>{{ video_tape_format }}</dd>
+  <dt>Type of Footage</dt>
+  <dd>?</dd>
+  <dt>Description</dt>
+  <dd>?</dd>
+  <dt>Keywords or Subject</dt>
+  <dd>?</dd>
+  <dt>Location of Footage</dt>
+  <dd>{{ location_of_production }}</dd>
+  <dt>Collection</dt>
+  <dd>{{ collection }}</dd>
+</dl>
+{% endblock %}
